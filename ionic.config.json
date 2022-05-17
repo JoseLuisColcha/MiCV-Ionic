@@ -1,0 +1,7 @@
+{
+  "name": "MiCV",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

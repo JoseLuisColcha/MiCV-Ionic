@@ -1,4 +1,4 @@
-#main-content {
+.main-content {
   width: 80%;
   margin: 0 auto;
   padding: 5px;
@@ -12,14 +12,14 @@ legend {
   border-radius: 20px;
   background: rgb(185, 174, 117);
 }
-#myphoto {
+.myphoto {
   width: 190px;
   height: 190px;
 }
-#miname {
+.myname {
   font-weight: bold;
   color: rgb(185, 174, 117);
 }
-#main-text {
+.main-text {
   padding-top: 40px;
 }

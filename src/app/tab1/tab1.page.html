@@ -1,17 +1,26 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title> Mi Curriculum Vitae </ion-title>
+    <ion-title> Mi Currículum Vitae </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-grid>
+  <ion-grid id="main-content">
     <ion-row>
-      <ion-col size="5">
+      <ion-col>
+        <ion-row>
+          <ion-col size="5" >
+            <ion-avatar id="myphoto"
+              ><img src="../../assets/Imagen1.png" alt=""
+            /></ion-avatar>
+          </ion-col>
+          <ion-col id="main-text">
+            <h4 id="miname">JOSÉ LUIS COLCHA</h4>
+            <h4>Software Developer</h4>
+          </ion-col>
+        </ion-row>
+        <div></div>
         <div>
-          <ion-avatar id="myphoto"
-            ><img src="../../assets/Imagen1.png" alt=""
-          /></ion-avatar>
           <fieldset>
             <legend>OBJETIVO PROFESIONAL</legend>
             <p>
@@ -23,71 +32,10 @@
           <fieldset>
             <legend>CONTACTO</legend>
             <ul>
-              <li>Teléfono: 0995455185</li>
-              <li>Direccion: Guamaní,San Juan de Turubamba, Quito-Ecuador</li>
-              <li>Email: joseluis.colcha@outlook.es</li>
-              <li>LinkedIn:/joseluiscolcha</li>
-            </ul>
-          </fieldset>
-          <fieldset>
-            <legend>HABILIDADES</legend>
-            <ul>
-              <li>Autodidacta</li>
-              <li>Liderazgo</li>
-              <li>Flexibilidad</li>
-              <li>Planificación y gestión del tiempo</li>
-            </ul>
-          </fieldset>
-        </div>
-      </ion-col>
-      <ion-col>
-        <div>
-          <h1>JOSÉ LUIS COLCHA</h1>
-          <ion-title>Software Developer</ion-title>
-
-          <br /><br />
-
-          <fieldset>
-            <legend>HABILIDADES</legend>
-            <ul>
-              <h5>Lenguajes de Programación</h5>
-              <li>C++</li>
-              <li>Java</li>
-              <li>Python</li>
-              <li>JavaScript</li>
-              <h5>Diseño Web</h5>
-              <li>Css</li>
-              <li>Html</li>
-              <li>Bootstrap</li>
-              <li>React</li>
-              <h5>Base de datos</h5>
-              <li>MySQL</li>
-              <li>SQL Server</li>
-              <li>MongoDB</li>
-              <li>CouchDB</li>
-              <h5>Control versiones</h5>
-              <li>Git</li>
-              <li>GitHub</li>
-            </ul>
-          </fieldset>
-          <fieldset>
-            <legend>FORMACIÓN</legend>
-            <ul>
-              <li>Escuela Politécnica Nacional (EPN) 2018-Actualidad</li>
-            </ul>
-          </fieldset>
-          <fieldset>
-            <legend>CURSOS</legend>
-            <ul>
-              <li>Google Active, Desarrollo Web I y II (80 horas)</li>
-              <li>Google Active, Cloud Computing (40 horas)</li>
-            </ul>
-          </fieldset>
-          <fieldset>
-            <legend>IDIOMAS</legend>
-            <ul>
-              <li>Inglés: B1</li>
-              <li>Español: Nativo</li>
+              <li>Teléfono:  0995455185</li>
+              <li>Direccion:  Guamaní,San Juan de Turubamba, Quito-Ecuador</li>
+              <li>Email:  joseluis.colcha@outlook.es</li>
+              <li>LinkedIn: /joseluiscolcha</li>
             </ul>
           </fieldset>
         </div>
@@ -100,6 +48,4 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <!--  <app-explore-container name=""></app-explore-container>>-->
 </ion-content>
